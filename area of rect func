@@ -1,0 +1,13 @@
+#include<stdio.h>
+void area(float l,float b){
+	float area=l*b;
+	printf("\n area is %f",area);
+}
+int main(){
+	float l,b;
+	scanf("%f%f",&l,&b);
+	area(l,b);
+	return 0;
+}
+
+	
